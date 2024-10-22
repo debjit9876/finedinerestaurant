@@ -1,0 +1,374 @@
+/*============== Media query at 1400px =============== */
+@media screen and (max-width: 1399px) {
+  /*============ navbar ============= */
+  .navbar .container {
+    width: 95%;
+  }
+  .navbar .container .nav-menu {
+    width: 68%;
+  }
+
+  /*============= banner ============= */
+  .banner .container {
+    width: 95%;
+  }
+
+  /*================== about us section ================== */
+  .about-us .container {
+    width: 95%;
+  }
+  .about-us .container .row {
+    width: 60%;
+  }
+
+  /*============== menu section ============= */
+  .menu .container {
+    width: 95%;
+  }
+  .menu .container .row .row-content {
+    width: 85%;
+  }
+  .menu .container .row .row-content .content {
+    width: 40%;
+  }
+  .menu .container .row .row-content .content p {
+    font-size: 16px;
+  }
+  .menu .container .row .row-content .content .btns {
+    width: 85%;
+  }
+
+  /*============== catering section ================ */
+  .catering .container {
+    width: 95%;
+  }
+
+  /*=============== quote section ================== */
+  .quote .container {
+    width: 95%;
+  }
+  .quote .container .row {
+    width: 50%;
+  }
+
+  /*=============== booking section ================== */
+  .booking .container {
+    width: 95%;
+  }
+  .booking .container .row {
+    width: 50%;
+  }
+
+  /*=============== footer ============= */
+  .footer .container {
+    width: 95%;
+  }
+}
+
+/*============== Media query at 1200px =============== */
+@media screen and (max-width: 1199px) {
+  .navbar .container {
+    position: relative;
+    width: 100%;
+  }
+  .navbar .container .logo {
+    width: 20%;
+  }
+  .navbar .container .nav-menu {
+    width: 25%;
+  }
+  .navbar .container .nav-menu ul {
+    position: absolute;
+    display: block;
+    top: 82px;
+    background-color: #101a1e;
+    height: auto;
+    width: 100%;
+    right: 0;
+    z-index: 1;
+  }
+  .navbar .container .nav-menu ul li {
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .navbar .container .nav-menu ul li a {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .navbar .container .reserv-btn {
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .navbar .container .reserv-btn .ico {
+    display: inline-block;
+    color: #fff;
+    padding-left: 10%;
+    font-size: 20px;
+  }
+
+  /*============== menu section ============= */
+  .menu .container .row .row-content {
+    width: 100%;
+  }
+
+  /*=============== booking section ================== */
+  .booking .container .row {
+    width: 55%;
+  }
+
+  /*=============== footer ============= */
+  .footer .container .row {
+    justify-content: space-between;
+  }
+}
+
+/*============== Media query at 1024px =============== */
+@media screen and (max-width: 1024px) {
+  /*============= about us section ============= */
+  .about-us .container .row {
+    width: 75%;
+  }
+
+  /*================quote section =============== */
+  .quote .container .row {
+    width: 60%;
+  }
+}
+
+/*============== Media query at 992px =============== */
+@media screen and (max-width: 991px) {
+  /*=========== navbar =========== */
+  .navbar .container .reserv-btn {
+    width: 40%;
+  }
+
+  /*=========== banner ============ */
+  .banner .container .row h1 {
+    font-size: 60px;
+    width: 100%;
+  }
+
+  /*================= menu section =============== */
+  .menu {
+    height: 1500px;
+  }
+  .menu .container .row .row-content {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+    height: 100%;
+  }
+  .menu .container .row .row-content figure {
+    width: 70%;
+  }
+  .menu .container .row .row-content figure img {
+    width: 100%;
+  }
+  .menu .container .row .row-content .content {
+    height: 49%;
+    width: 70%;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .menu .container .row .row-content .content p {
+    text-align: center;
+  }
+  .menu .container .row .row-content .content .btns {
+    width: 65%;
+  }
+  .menu .container .row #row-2 {
+    flex-direction: column-reverse;
+  }
+  .menu .container .row #row-2 .content {
+    padding-bottom: 20px;
+  }
+  .menu .container .row .section-line {
+    padding: 0;
+  }
+
+  /*================quote section =============== */
+  .quote .container .row {
+    width: 80%;
+  }
+
+  /*================= booking section ===================== */
+  .booking .container {
+    justify-content: center;
+  }
+  .booking .container .row {
+    width: 65%;
+    padding: 0;
+  }
+}
+
+/*============== Media query at 768px =============== */
+@media screen and (max-width: 767px) {
+  /*========== navbar ============ */
+  .navbar .container .logo {
+    width: 27%;
+  }
+
+  /*=========== banner ============ */
+  .banner .container .row h1 {
+    font-size: 50px;
+    width: 100%;
+  }
+
+  /*============= about us section =========== */
+  .about-us .container .row {
+    width: 100%;
+  }
+
+  /*=============== menu section ============== */
+  .menu .container .row .row-content .content {
+    width: 100%;
+    height: 55%;
+  }
+  .menu .container .row .row-content .content p {
+    line-height: 25px;
+  }
+
+  /*=============== catering section ================== */
+  .catering .container .row h2 {
+    font-size: 58px;
+  }
+
+  /*================= booking section ===================== */
+  .booking .container .row {
+    width: 75%;
+  }
+
+  /*==================== footer =================== */
+  .footer .container .row {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer .container .row a {
+    font-size: 14px;
+  }
+}
+
+/*============== Media query at 576px =============== */
+@media screen and (max-width: 575px) {
+  /*============= navbar ================== */
+  .navbar .container .reserv-btn {
+    width: 45%;
+  }
+
+  /*=========== banner ============ */
+  .banner .container .row h1 {
+    font-size: 45px;
+    letter-spacing: 10px;
+    width: 100%;
+  }
+
+  /*================ about us section ===================== */
+  .about-us .container .row h2 {
+    font-size: 35px;
+  }
+  .about-us .container .row p {
+    font-size: 16px;
+  }
+
+  /*=============== menu section ============== */
+  .menu .container {
+    padding: 20px 15px;
+  }
+  .menu .container .row .row-content {
+    padding: 0;
+  }
+  .menu .container .row .row-content figure {
+    width: 100%;
+  }
+  .menu .container .row .row-content .content .btns {
+    width: 75%;
+  }
+  .menu .container .row .section-line {
+    height: 15%;
+  }
+
+  /*=============== quote section ============ */
+  .quote .container .row p {
+    font-size: 20px;
+  }
+}
+
+/*============== Media query at 480px =============== */
+@media screen and (max-width: 480px) {
+  /*================= navbar ================ */
+  .navbar .container .logo {
+    width: 35%;
+  }
+  .navbar .container .reserv-btn {
+    width: 50%;
+  }
+  .navbar .container .reserv-btn a {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /*=========== banner ============ */
+  .banner .container .row h1 {
+    font-size: 35px;
+    letter-spacing: 5px;
+    width: 100%;
+  }
+
+  /*================ about us section ============== */
+  .about-us .container .row h2 {
+    font-size: 30px;
+  }
+  .about-us .container .row p {
+    font-size: 15px;
+    padding: 25px 0;
+  }
+
+  /*============ menu section =========== */
+  .menu .container .row .row-content .content .sm-head {
+    font-size: 30px;
+  }
+  .menu .container .row .row-content .content .btns {
+    width: 100%;
+  }
+
+  /*=========== catering section ============== */
+  .catering .container .row h2 {
+    font-size: 40px;
+  }
+
+  /*================== quote section ================ */
+  .quote .container .row p {
+    line-height: 30px;
+  }
+  .quote .container .row {
+    width: 100%;
+  }
+
+  /*================= booking section ===================== */
+  .booking .container .row {
+    width: 100%;
+  }
+  .booking .container .row h2 {
+    font-size: 28px;
+  }
+
+  /*========== footer ============== */
+  .footer .container .row p {
+    text-align: center;
+  }
+}
+
+/*============== Media query at 350px =============== */
+@media screen and (max-width: 350px) {
+  /*=========== catering section ============= */
+  .catering .container .row {
+    width: 100%;
+  }
+  .catering .container .row h2 {
+    font-size: 35px;
+  }
+}
